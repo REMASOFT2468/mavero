@@ -21,8 +21,8 @@ const Hero = () => {
         </h1>
 
         <p className="text-white text-lg md:text-2xl mt-4 opacity-90 leading-relaxed">
-          Connect instantly with skilled professionals for every home repair —
-          big or small. Fast, simple, reliable.
+          Connect instantly with skilled professionals for every home repair big
+          or small. Fast, simple, reliable.
         </p>
 
         <button className="mt-8 bg-[#00C2FF] hover:bg-[#00A6D8] transition-all duration-300 px-8 py-3 rounded-xl text-white text-lg font-semibold shadow-md">
