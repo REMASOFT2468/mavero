@@ -1,4 +1,5 @@
 import React from "react";
+import image1 from "../assets/image/image.jpeg";
 
 const Hero2 = () => {
   return (
@@ -6,9 +7,7 @@ const Hero2 = () => {
       <div className="relative w-full max-w-6xl h-120 rounded-3xl overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center blur-sm brightness-100"
-          style={{
-            backgroundImage: "url('/src/assets/image/image.jpeg')",
-          }}
+          style={{ backgroundImage: `url(${image1})` }}
         ></div>
 
         <div className="absolute inset-0 bg-black/40"></div>
