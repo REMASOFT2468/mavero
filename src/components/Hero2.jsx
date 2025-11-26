@@ -29,7 +29,7 @@ const Hero2 = () => {
               className="flex-1 bg-transparent placeholder-gray-300 text-white px-4 py-2 outline-none"
             />
             <button className="bg-white text-gray-800 font-medium rounded-full px-5 py-2 hover:bg-gray-200 transition">
-              Find Now
+              Find
             </button>
           </div>
         </div>
