@@ -4,8 +4,8 @@ import image1 from "../assets/image/image1.jpeg";
 const Hero = () => {
   return (
     <section
-      className="relative h-[70vh] w-full bg-cover bg-center bg-no-repeat bg-size[auto-100px] flex md:h-[90vh]"
-      style={{ backgroundImage: "url('/src/assets/image/image1.jpeg')" }}
+      className="relative h-[70vh] w-full bg-cover bg-center bg-no-repeat flex md:h-[90vh]"
+      style={{ backgroundImage: `url(${image1})` }}
     >
       <div className="absolute inset-0 bd-black/"></div>
       <div className="mt-[90px] md:-mt-[10px]">
