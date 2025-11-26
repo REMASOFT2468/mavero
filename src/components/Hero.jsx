@@ -4,29 +4,30 @@ import image1 from "../assets/image/image1.jpeg";
 const Hero = () => {
   return (
     <section
-      className="relative h-[70vh] w-full bg-cover bg-center bg-no-repeat flex md:h-[90vh]"
+      className="relative h-[75vh] md:h-[90vh] w-full bg-cover bg-center bg-no-repeat flex items-center"
       style={{ backgroundImage: `url(${image1})` }}
     >
-      <div className="absolute inset-0 bd-black/"></div>
-      <div className="mt-[90px] md:-mt-[10px]">
-        <h4 className="text-white text-xl font-bold p-10 md:p-15 md:text-5xl md:w-[200vh]">
+      {/* Dark overlay */}
+      <div className="absolute inset-0 bg-black/50"></div>
+
+      {/* Content */}
+      <div className="relative z-10 px-6 md:px-16 max-w-3xl">
+        <h1 className="text-white text-3xl md:text-6xl font-extrabold leading-tight drop-shadow-lg">
           Fix It Fast,
           <br />
-          Hire Trusted Helpers,and <br />
-          Take Back Your Time <br />
-          All From one App
-        </h4>
-        <p className="text-white text-1xl ml-10 md:ml-15 text-2xl">
-          Connect instantly with skilled <br />
-          professionals for every home repair,
-          <br /> big or small. Simple, fast, reliable.
+          Hire Trusted Helpers,
+          <br />
+          And Take Back Your Time
+        </h1>
+
+        <p className="text-white text-lg md:text-2xl mt-4 opacity-90 leading-relaxed">
+          Connect instantly with skilled professionals for every home repair —
+          big or small. Fast, simple, reliable.
         </p>
-        <div className="p-10  flex gap-[20px] md:-ml-5">
-          <button className="bg-[#00C2FF] h-10 w-30 rounded-xl text-white md:ml-10">
-            {" "}
-            Get Started
-          </button>
-        </div>
+
+        <button className="mt-8 bg-[#00C2FF] hover:bg-[#00A6D8] transition-all duration-300 px-8 py-3 rounded-xl text-white text-lg font-semibold shadow-md">
+          Get Started
+        </button>
       </div>
     </section>
   );
