@@ -6,8 +6,7 @@ const Hero3 = () => {
     <section className="w-full px-6 py-16 flex flex-col md:flex-row items-center md:items-start gap-12">
       <div className="flex-1">
         <h2 className="text-3xl font-bold leading-tight mb-4">
-          Why Choose <span className="text-blue-500">Mr. Appliance</span> to
-          Repair
+          Why Choose <span className="text-blue-500">Mavero</span> to Repair
         </h2>
 
         <p className="text-gray-600 mb-10 max-w-lg">

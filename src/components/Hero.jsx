@@ -12,7 +12,7 @@ const Hero = () => {
 
       {/* Content */}
       <div className="relative z-10 px-6 md:px-16 max-w-3xl">
-        <h1 className="text-white text-3xl md:text-6xl font-extrabold leading-tight drop-shadow-lg">
+        <h1 className="text-white text-3xl md:text-4xl font-extrabold leading-tight drop-shadow-lg">
           Fix It Fast,
           <br />
           Hire Trusted Helpers,
@@ -20,7 +20,7 @@ const Hero = () => {
           And Take Back Your Time
         </h1>
 
-        <p className="text-white text-lg md:text-2xl mt-4 opacity-90 leading-relaxed">
+        <p className="text-white text-lg md:text-xl mt-4 opacity-90 leading-relaxed">
           Connect instantly with skilled professionals for every home repair big
           or small. Fast, simple, reliable.
         </p>

@@ -3,9 +3,7 @@ import React from "react";
 const Navbar = () => {
   return (
     <div className="bg-[#1A4F8B] flex p-5 text-white justify-between">
-      <div className="mt-[10px] font-bold">
-        <h1>Mavero</h1>
-      </div>
+      <h2 className="text-2xl font-bold text-white mb-3">Mavero</h2>
       <div className="hidden w-[200px] justify-between items-center md:flex">
         <p>Home</p>
         <p>About</p>

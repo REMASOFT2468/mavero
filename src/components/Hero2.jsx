@@ -14,11 +14,11 @@ const Hero2 = () => {
 
         <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-6">
           <h1 className="text-white text-3xl md:text-4xl font-semibold">
-            Find a Mr. Appliance <br /> Near Me Today
+            Find Expert Near Me Today
           </h1>
 
           <p className="text-gray-200 mt-3 max-w-md">
-            Discover a nearby Mr. Appliance today for expert, reliable, and
+            Discover a nearby expert today, reliable, and
             friendly service.
           </p>
 
