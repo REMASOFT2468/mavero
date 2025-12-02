@@ -20,9 +20,9 @@ const Footer = () => {
               Email: <span className="text-white">support@mavero.com</span>
             </li>
             <li>
-              Phone: <span className="text-white">+234 808 123 4567</span>
+              Phone: <span className="text-white">+234 80 6998 9771</span>
             </li>
-            <li>Location: Lagos, Nigeria</li>
+            <li>Location: Port Harcout, Nigeria</li>
           </ul>
         </div>
 
