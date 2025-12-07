@@ -13,10 +13,8 @@ const Hero = () => {
       className="relative h-[70vh] md:h-[90vh] w-full bg-cover bg-center bg-no-repeat flex items-center"
       style={{ backgroundImage: `url(${image1})` }}
     >
-      {/* Dark overlay */}
       <div className="absolute inset-0 bg-black/60"></div>
 
-      {/* Content */}
       <div className="relative z-10 px-6 md:px-16 max-w-3xl" data-aos="fade-up">
         <h1
           className="text-white text-3xl sm:text-4xl md:text-5xl font-extrabold leading-tight drop-shadow-lg"

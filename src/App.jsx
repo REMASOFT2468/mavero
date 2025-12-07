@@ -1,25 +1,25 @@
-import { useState } from "react";
-import "./App.css";
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import Hero1 from "./components/Hero1";
-import Hero3 from "./components/Hero3";
-import Hero2 from "./components/Hero2";
-import Hero4 from "./components/Hero4";
-import Footer from "./components/Footer";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-function App() {
+import Home from "./pages/Home.jsx";
+import About from "./pages/About.jsx";
+import Solution from "./pages/Solution.jsx";
+import Product from "./pages/Product.jsx";
+import Footer from "./components/Footer.jsx";
+import Navbar from "./components/Navbar.jsx";
+
+const App = () => {
   return (
-    <div>
+    <Router>
       <Navbar />
-      <Hero />
-      <Hero1 />
-      <Hero3 />
-      <Hero2 />
-      <Hero4 />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/solution" element={<Solution />} />
+        <Route path="/product" element={<Product />} />
+      </Routes>
       <Footer />
-    </div>
+    </Router>
   );
-}
+};
 
 export default App;
